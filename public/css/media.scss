@@ -1,0 +1,65 @@
+@media(max-width:769px) {
+    .footer-inner {
+        flex-wrap: wrap;
+    }
+    .footer-block {
+        margin: 0 auto;
+        margin-bottom: 25px;
+        flex-basis: 40%;
+    }
+    .find {
+        max-width: 150px;
+    }
+    .account-footer {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:650px) {
+    .footer-inner {
+        margin-right: 10px;
+    }
+    .sidebar {
+        display: none;
+    }
+    .footer-block {
+        flex-basis: 100%;
+    }
+    .footer-block:not(:last-child) {
+        margin-right: 0;
+    }
+    .banner {
+        display: none;
+    }
+}
+@media(max-width:426px) {
+    .list {
+        flex-direction: column;
+        li {
+            margin-bottom: 25px;
+        }
+    }
+
+    .big-list {
+        max-height: 828px;
+    }
+
+    .footer-footer {
+        display: none;
+    }
+
+    .header-content {
+        nav {
+            flex-direction: column;
+            width: 100%;
+            a {
+                display: block;
+                border-right: none;
+                border-bottom: solid 1px #CBCBCB;
+            }
+        }
+    }
+    .hamburger {
+        display: block;
+    }
+}
